@@ -1,0 +1,26 @@
+Solution1
+
+
+1.	Screen 1
+•	Name
+i.	Required
+ii.	Special characters not allowed
+•	Email
+i.	Required 
+ii.	Input must satisfy email@example.com 
+iii.	Email should not exist in previous accounts
+•	Phone
+i.	Only digits allowed
+ii.	Only 10 digits allowed as phone number
+iii.	Should not already exist, if exist redirect to login page
+•	Create password
+i.	Required 
+ii.	Must satisfy a password with descent strength
+•	Must not register if terms not accepted
+2.	Screen 2
+•	Otp must be only numbers
+•	Otp must be validated
+•	Otp resend must be disabled for 2 minutes
+3.	Screen 3
+•	Should only open if logged in 
+•	If opened from url and not logged in , should redirect back to login page
